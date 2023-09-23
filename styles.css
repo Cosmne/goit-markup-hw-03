@@ -1,0 +1,225 @@
+:root {
+  --bg-color: #ffffff;
+  --basement-color: #2f303a;
+  --text-color: #757575;
+  --title-color: #212121;
+  --button-color: #2196f3;
+  --button-effect: #188ce8;
+  --subpage-buttons: #f5f4fa;
+  --logo-color: #000000;
+}
+
+/*General*/
+
+body {
+  font-family: "roboto", "raleway", sans-serif;
+  font-family: "roboto";
+  color: var(--text-color);
+  width: 1600px;
+  height: 2348px;
+  top: -3267px;
+  left: -3897px;
+}
+.logo :hover {
+  color: var(--button-color);
+}
+#current {color: var(--button-color);}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo-color);
+}
+.studio-head {
+  color: var(--button-color);
+}
+.web-head-foot {
+  color: var(--button-color);
+}
+.studio-foot {
+  color: var(--bg-color);
+}
+.lists ul {
+  list-style: none;
+}
+
+/*Studio*/
+/*header-footer*/
+.header-style {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: inherit;
+}
+.header-style a {
+  text-decoration: none;
+}
+.main-navigation {
+  color: inherit;
+}
+.main-navigation a:link {
+  color: inherit;
+}
+.main-navigation :current{
+  color: var(--button-color)
+}
+
+.main-navigation a:hover {
+  color: var(--button-color);
+}
+.main-navigation ul {
+  list-style: none;
+}
+.main-buttons {
+  color: var(--title-color);
+}
+.subpage-navigation button:hover {
+  background-color: var(--button-color);
+  color: var(--bg-color);
+  cursor: pointer;
+}
+.subpage-navigation button:focus {
+  background-color: var(--button-effect);
+  color: var(--bg-color);
+}
+
+.subpage-navigation button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--title-color);
+  background-color: var(--subpage-buttons);
+  border: none;
+}
+.footer-style {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-style: normal;
+  background-color: var(--basement-color);
+}
+.footer-style a {
+  text-decoration: none;
+}
+.footer-style ul {
+  list-style: none;
+}
+
+.footer-style a:link,
+a:visited {
+  color: inherit;
+}
+.footer-style a:hover {
+  color: var(--button-color);
+}
+.set-adress {
+  color: var(--bg-color);
+}
+.contacts {
+  opacity: 0.6;
+}
+/*top-section*/
+.main-title {
+  background-color: var(--basement-color);
+  color: var(--bg-color);
+}
+/*Main-Button*/
+.req-serv-button {
+  background-color: var(--button-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bg-color);
+  border: none;
+  display: block;
+  padding: 5px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.req-serv-button:hover {
+  background-color: var(--button-effect);
+}
+.req-serv-button:focus {
+  background-color: var(--button-effect);
+}
+/*title-text*/
+.h3-studio {
+  color: var(--title-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.h2-studio {
+  color: var(--title-color);
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.services {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  list-style: none;
+}
+.p-studio {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.team-studio {
+  color: var(--title-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/*text*/
+.team-studio-description {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/*Portofolio*/
+.h3-portfolio {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--title-color);
+}
+.services span {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
