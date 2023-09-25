@@ -223,3 +223,24 @@ a:visited {
   letter-spacing: 0.03em;
   text-align: left;
 }
+.studio-head {
+  color: var(--logo-color);
+}
+/*PageAlign*/
+
+.header-style {
+  display: flex;
+  flex-direction: row;;
+  border: 1px solid red;
+  width: 1600px; 
+  height: 80px;  
+  
+}
+.main-navigation li {
+  border: 1px solid red;
+  display: inline-block;
+  justify-content: space-between;
+}
+.main-navigation {
+  justify-content: space-between;
+}
