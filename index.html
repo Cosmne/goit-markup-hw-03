@@ -24,9 +24,9 @@
           ><span class="studio-head">Studio</span></a
         >
       </div>
-
+      
       <nav class="main-navigation">
-        <ul>
+        <ul class="container-header">
           <li class="main-buttons">
             <a id="current" rel="stylesheet" href="index.html" >Studio</a>
           </li>
@@ -36,28 +36,36 @@
           <li class="main-buttons">
             <a rel="stylesheet" href="Contacts">Contacts</a>
           </li>
+          <li class="box"></li>
           <li>
             <a class="links" rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
           </li>
+          
           <li>
             <a class="links" rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
           </li>
         </ul>
       </nav>
+      
     </header>
     <!--Main Title-->
     <section class="main-title">
-      <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+      <div class="main-title-content">
+      <h1>EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
 
       <!--Request Servvice Button-->
+      <div class="button">
       <button class="req-serv-button" type="button">REQUEST OUR SERVICE</button>
+      </div>
+      </div>
     </section>
 
     <!--Main Section -->
 
     <main class="lists">
       <!--Qality1-->
-      <ul>
+      <div id="container">
+      <ul class="container-mid">
         <li>
           <h3 class="h3-studio">ATTENTION TO DETAILS</h3>
           <p class="p-studio">
@@ -96,14 +104,14 @@
           </p>
         </li>
       </ul>
-
+      </div>
       <!--Ocupation-->
 
-      <ul>
-        <li>
+      
+        
           <h2 class="h2-studio">What we do</h2>
-        </li>
-
+        <div  id="container">
+        <ul class="ocupation" >
         <li>
           <img
             src="images/img1.jpg"
@@ -130,14 +138,16 @@
             alt="img not found"
           />
         </li>
-
+      </ul>
+      </div>
         <!--Team-->
 
-        <li>
+      
           <h2 class="h2-studio">Our Team</h2>
-        </li>
-
+        <div id="container">
+        <ul class="team-position">
         <li>
+          
           <img
             src="images/img4.jpg"
             width="270"
@@ -183,6 +193,7 @@
           <span class="team-studio-description">UI Designer</span>
         </li>
       </ul>
+      </div>
     </main>
 
     <!--Bottom Section -->
@@ -195,7 +206,7 @@
             ><span class="studio-foot">Studio</span>
           </a>
         </div>
-
+        <div>
         <ul>
           <li class="set-adress">
             <a rel="stylesheet" href="Park&nbsp;Ave,&nbsp;NY&nbsp;10065,&nbsp;USA"
@@ -209,6 +220,7 @@
             <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
           </li>
         </ul>
+        </div>
       </address>
     </footer>
   </body>
