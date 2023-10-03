@@ -122,7 +122,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 0;
-  margin-bottom: 50px;
   margin-left: 327px;
   width: 516px;
   height: 38px;
@@ -394,7 +393,7 @@ a:visited {
 .services  {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 50px;
   
 }
 
